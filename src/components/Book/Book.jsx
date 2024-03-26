@@ -3,17 +3,20 @@ import { CiStar } from "react-icons/ci";
 import { Link } from "react-router-dom";
 
 const Book = ({ book }) => {
-  const { bookName, author, image, rating, category, tags } = book;
+  const { bookId, bookName, author, image, rating, category, tags } = book;
   return (
-    <Link to="">
+    <Link to={`/book/${bookId}`}>
       <div className="card bg-base-100 border-2 p-5">
         <figure className="p-10 rounded-lg bg-base-200">
           <img src={image} className="rounded-xl w-xl" />
         </figure>
         <div className="mt-5">
           <div className="flex gap-4">
-            {tags.map((tag) => (
-              <span className="px-3 py-1 text-sm font-semibold text-green-500 bg-stone-100 rounded-xl">
+            {tags.map((tag, idx) => (
+              <span
+                key={idx}
+                className="px-3 py-1 text-sm font-semibold text-green-500 bg-stone-100 rounded-xl"
+              >
                 {tag}
               </span>
             ))}
