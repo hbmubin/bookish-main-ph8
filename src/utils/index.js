@@ -25,13 +25,22 @@ export const saveReadBook = (ReadBook) => {
   } else {
     readBooks.push(ReadBook);
     localStorage.setItem("readBooks", JSON.stringify(readBooks));
+    let wishlistBooks = getWishlistBooks();
+    wishlistBooks.push(ReadBook);
+    localStorage.setItem("wishlistBooks", JSON.stringify(wishlistBooks));
     toast.success("Successfully added to Read");
   }
 };
 export const saveWishlistBook = (wishlistBook) => {
   let wishlistBooks = getWishlistBooks();
-  const isExist = wishlistBooks.find((b) => b.bookId === wishlistBook.bookId);
-  if (isExist) {
+  let readBooks = getReadBooks();
+  const isExistWishlist = wishlistBooks.find(
+    (b) => b.bookId === wishlistBook.bookId
+  );
+  const isExistRead = readBooks.find((b) => b.bookId === wishlistBook.bookId);
+  if (isExistWishlist && isExistRead) {
+    return toast.error("Already Read this Book ");
+  } else if (isExistWishlist) {
     return toast.error("Already added to Wishlist");
   } else {
     wishlistBooks.push(wishlistBook);
