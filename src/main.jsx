@@ -8,6 +8,8 @@ import LIstedBooks from "./components/ListedBooks/LIstedBooks";
 import PagesToRead from "./components/PagesToRead/PagesToRead";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
 import BookDetails from "./components/BookDetails/BookDetails";
+import ReadBooks from "./components/ReadBooks/ReadBooks";
+import WishlistBooks from "./components/WishlistBooks/WishlistBooks";
 
 const router = createBrowserRouter([
   {
