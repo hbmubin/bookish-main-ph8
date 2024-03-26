@@ -1,0 +1,80 @@
+[
+  {
+    "bookId": 1,
+    "bookName": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "image": "https://i.ibb.co/3SMm8wW/pngwing-1.png",
+    "review": "The Catcher in the Rye follows the life of Holden Caulfield, a young man navigating the complexities of adolescence and societal expectations. Salinger's portrayal of teenage angst and disillusionment resonates with readers, making this novel a timeless classic.",
+    "totalPages": 277,
+    "rating": 4.2,
+    "category": "Fiction",
+    "tags": ["Coming-of-age", "Literary Fiction"],
+    "publisher": "Little, Brown and Company",
+    "yearOfPublishing": 1951
+  },
+  {
+    "bookId": 2,
+    "bookName": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "image": "https://i.ibb.co/S5X07F7/kindpng-81724-1.png",
+    "review": "The Lord of the Rings is a monumental fantasy epic that transports readers to the enchanting realm of Middle-earth. Tolkien's richly detailed world-building, intricate plot, and memorable characters captivate audiences, earning this trilogy its place among the greatest works of fiction.",
+    "totalPages": 1178,
+    "rating": 4.8,
+    "category": "Fantasy",
+    "tags": ["Epic Fantasy", "Adventure"],
+    "publisher": "George Allen & Unwin",
+    "yearOfPublishing": 1954
+  },
+  {
+    "bookId": 3,
+    "bookName": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "image": "https://i.ibb.co/BZ4XSn1/kindpng-1064993.png",
+    "review": "To Kill a Mockingbird is a poignant tale set in the racially charged atmosphere of the American South. Through the eyes of young Scout Finch, Harper Lee addresses themes of morality, compassion, and the fight for justice, leaving a lasting impact on readers of all ages.",
+    "totalPages": 281,
+    "rating": 4.5,
+    "category": "Fiction",
+    "tags": ["Classic", "Legal Drama"],
+    "publisher": "J. B. Lippincott & Co.",
+    "yearOfPublishing": 1960
+  },
+  {
+    "bookId": 4,
+    "bookName": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "image": "https://i.ibb.co/ScVsYTc/kindpng-2193744-1.png",
+    "review": "The Great Gatsby offers a mesmerizing glimpse into the extravagance and disillusionment of the Jazz Age. Fitzgerald's lyrical prose and vivid characters paint a vivid portrait of love, longing, and the pursuit of the American Dream amidst the glittering backdrop of Long Island.",
+    "totalPages": 180,
+    "rating": 4.3,
+    "category": "Fiction",
+    "tags": ["Classic", "Romance"],
+    "publisher": "Charles Scribner's Sons",
+    "yearOfPublishing": 1925
+  },
+  {
+    "bookId": 5,
+    "bookName": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "image": "https://i.ibb.co/sW5W9Gw/kindpng-4022054-1.png",
+    "review": "Harry Potter and the Sorcerer's Stone is a spellbinding tale of magic, friendship, and courage. J.K. Rowling's imaginative world-building and relatable characters have enchanted millions of readers worldwide, making this book a modern classic for readers of all ages.",
+    "totalPages": 320,
+    "rating": 4.7,
+    "category": "Fantasy",
+    "tags": ["Wizardry", "Magic"],
+    "publisher": "Bloomsbury",
+    "yearOfPublishing": 1997
+  },
+  {
+    "bookId": 6,
+    "bookName": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "image": "https://i.ibb.co/gd2RtWh/kindpng-7318921.png",
+    "review": "The Hobbit is a delightful adventure that transports readers to the enchanting world of Middle-earth. Tolkien's masterful storytelling, rich mythology, and charming characters make this book an enduring favorite for readers of all ages.",
+    "totalPages": 310,
+    "rating": 4.6,
+    "category": "Fantasy",
+    "tags": ["Adventure", "Epic"],
+    "publisher": "George Allen & Unwin",
+    "yearOfPublishing": 1937
+  }
+]
