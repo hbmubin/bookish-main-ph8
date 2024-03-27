@@ -1,7 +1,7 @@
 [
   {
     "bookId": 1,
-    "bookName": "The Catcher in the Rye",
+    "bookName": "The Catcher",
     "author": "J.D. Salinger",
     "image": "https://i.ibb.co/3SMm8wW/pngwing-1.png",
     "review": "The Catcher in the Rye follows the life of Holden Caulfield, a young man navigating the complexities of adolescence and societal expectations. Salinger's portrayal of teenage angst and disillusionment resonates with readers, making this novel a timeless classic.",
@@ -18,7 +18,7 @@
     "author": "J.R.R. Tolkien",
     "image": "https://i.ibb.co/S5X07F7/kindpng-81724-1.png",
     "review": "The Lord of the Rings is a monumental fantasy epic that transports readers to the enchanting realm of Middle-earth. Tolkien's richly detailed world-building, intricate plot, and memorable characters captivate audiences, earning this trilogy its place among the greatest works of fiction.",
-    "totalPages": 1178,
+    "totalPages": 378,
     "rating": 4.8,
     "category": "Fantasy",
     "tags": ["Epic Fantasy", "Adventure"],
@@ -53,7 +53,7 @@
   },
   {
     "bookId": 5,
-    "bookName": "Harry Potter and the Sorcerer's Stone",
+    "bookName": "Harry Potter",
     "author": "J.K. Rowling",
     "image": "https://i.ibb.co/sW5W9Gw/kindpng-4022054-1.png",
     "review": "Harry Potter and the Sorcerer's Stone is a spellbinding tale of magic, friendship, and courage. J.K. Rowling's imaginative world-building and relatable characters have enchanted millions of readers worldwide, making this book a modern classic for readers of all ages.",
