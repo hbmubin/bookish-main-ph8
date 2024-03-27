@@ -40,7 +40,7 @@ const PagesToRead = () => {
   }
   console.log(books.length);
   return (
-    <div>
+    <div className="p-5 bg-base-200 rounded-lg inline-block">
       <BarChart
         width={books.length * 2 * 100}
         height={400}
