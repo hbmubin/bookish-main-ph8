@@ -1,5 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid } from "recharts";
+import {
+  BarChart,
+  Bar,
+  Cell,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+} from "recharts";
 import { getReadBooks } from "../../utils";
 
 const colors = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "red", "pink"];
@@ -38,9 +46,9 @@ const PagesToRead = () => {
       </h2>
     );
   }
-  console.log(books.length);
+
   return (
-    <div className="p-5 bg-base-200 rounded-lg inline-block">
+    <div className="p-5 bg-base-200 rounded-lg ">
       <BarChart
         width={books.length * 2 * 100}
         height={400}

@@ -3,6 +3,7 @@ import { IoLocationOutline } from "react-icons/io5";
 import { RiGroupLine } from "react-icons/ri";
 import { RiPagesLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
+// import { handleShortBy } from "../../utils";
 
 const ReadBook = ({ readBook }) => {
   const {
@@ -18,6 +19,11 @@ const ReadBook = ({ readBook }) => {
     publisher,
     yearOfPublishing,
   } = readBook;
+
+  // const filter = handleShortBy();
+  // if (filter == "rating") {
+  //   console.log("ok");
+  // }
   return (
     <div className="hero">
       <div className="hero-content w-full justify-start flex-col lg:flex-row border-2 rounded-xl">

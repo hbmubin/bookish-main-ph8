@@ -1,15 +1,17 @@
 // import PropTypes from 'prop-types'
 
 import { Link, Outlet } from "react-router-dom";
-import { useState } from "react";
+import { createContext, useState } from "react";
+import { IoIosArrowDown } from "react-icons/io";
+export const AssetContext = createContext("filter");
 
 const LIstedBooks = () => {
-  // const readBooks = getReadBooks();
-
-  // const book = readBooks.map((b) => b);
-  // console.log(book);
-
   const [tabIndex, setTabIndex] = useState(0);
+  const [filter, setFilter] = useState("");
+
+  const handleShortBy = (filter) => {
+    setFilter(filter);
+  };
 
   return (
     <div>
@@ -20,13 +22,19 @@ const LIstedBooks = () => {
         <details className="dropdown">
           <summary className=" btn px-6 bg-green-500 rounded-xl my-6 text-white">
             Short By
+            <span>
+              <IoIosArrowDown />
+            </span>
           </summary>
           <ul className="px-4 shadow menu dropdown-content z-[1] bg-base-100 rounded-xl">
             <li>
-              <a>Item 1</a>
+              <a onClick={() => handleShortBy("rating")}>Rating</a>
             </li>
             <li>
-              <a>Item 2</a>
+              <a onClick={() => handleShortBy("pages")}>Number of pages</a>
+            </li>
+            <li>
+              <a onClick={() => handleShortBy("year")}>Publishing year</a>
             </li>
           </ul>
         </details>
@@ -56,7 +64,9 @@ const LIstedBooks = () => {
         </Link>
       </div>
       <div>
-        <Outlet></Outlet>
+        <AssetContext.Provider value={filter}>
+          <Outlet></Outlet>
+        </AssetContext.Provider>
       </div>
     </div>
   );
