@@ -31,7 +31,7 @@ const ReadBooks = () => {
   if (displayReadBooks.length === 0) {
     return (
       <h2 className="my-7 text-2xl text-stone-500">
-        No Books is added to Read
+        No Books are added to Read
       </h2>
     );
   }

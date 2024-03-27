@@ -64,6 +64,30 @@ const Header = () => {
                   Pages to Read
                 </NavLink>
               </li>
+              <li>
+                <NavLink
+                  to="/about"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "bg-white border-2 border-green-400 text-green-600"
+                      : ""
+                  }
+                >
+                  About Us
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/contact"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "bg-white border-2 border-green-400 text-green-600"
+                      : ""
+                  }
+                >
+                  Contact
+                </NavLink>
+              </li>
             </ul>
           </div>
           <a className="btn btn-ghost text-2xl">Bookish</a>
@@ -104,6 +128,30 @@ const Header = () => {
                 }
               >
                 Pages to Read
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/about"
+                className={({ isActive }) =>
+                  isActive
+                    ? "bg-white border-2 border-green-400 text-green-600"
+                    : ""
+                }
+              >
+                About Us
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/contact"
+                className={({ isActive }) =>
+                  isActive
+                    ? "bg-white border-2 border-green-400 text-green-600"
+                    : ""
+                }
+              >
+                Contact
               </NavLink>
             </li>
           </ul>
