@@ -49,8 +49,8 @@ const BookDetails = () => {
           {review}
         </div>
 
-        <div className="flex font-bold mb-3">
-          <div className="mr-6"> tags</div>
+        <div className="flex items-center font-bold mb-3">
+          <div className="mr-6"> Tag</div>
           <div className="flex gap-4">
             {tags.map((tag, idx) => (
               <span
