@@ -44,7 +44,7 @@ const LIstedBooks = () => {
           <span>Read Books</span>
         </Link>
         <Link
-          to={`wishlist`}
+          to={`wishlistbooks`}
           onClick={() => setTabIndex(1)}
           rel="noopener noreferrer"
           href="#"
