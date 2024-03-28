@@ -51,7 +51,7 @@ const PagesToRead = () => {
     <div className="p-5 bg-base-200 rounded-lg ">
       <BarChart
         width={books.length * 2 * 100}
-        height={400}
+        height={500}
         data={books}
         margin={{
           top: 20,

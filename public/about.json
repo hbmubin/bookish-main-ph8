@@ -1,0 +1,24 @@
+{
+  "title": "About Us",
+  "description": "Welcome to Bookish, your ultimate destination for book lovers! At Bookish, we are passionate about literature and believe in the power of storytelling to inspire, educate, and entertain. Our mission is to connect readers with their next great read, whether it's a timeless classic or the latest bestseller.",
+  "team": [
+    {
+      "name": "John Doe",
+      "role": "Founder & CEO",
+      "bio": "John is a lifelong bookworm with a vision to create a community where readers can discover and share their love for literature. With a background in technology and a passion for books, he founded Bookish to bring together book lovers from around the world.",
+      "image": "https://i.ibb.co/yg070J1/download-4.jpg"
+    },
+    {
+      "name": "Jane Smith",
+      "role": "Content Manager",
+      "bio": "Jane is a book enthusiast and avid reader who oversees the content creation and curation at Bookish. With her keen eye for detail and love for storytelling, she ensures that our readers have access to engaging book reviews, author interviews, and literary news.",
+      "image": "https://i.ibb.co/z59btMp/photo-gallery-img-02.jpg"
+    },
+    {
+      "name": "Michael Johnson",
+      "role": "Customer Support Specialist",
+      "bio": "Michael is dedicated to providing exceptional customer service and support to our Bookish community. With his friendly demeanor and passion for helping others, he ensures that every reader's experience with Bookish is seamless and enjoyable.",
+      "image": "https://i.ibb.co/vzhgQx5/Team-memeber-01.png"
+    }
+  ]
+}
