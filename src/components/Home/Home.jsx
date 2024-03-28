@@ -5,7 +5,7 @@ import Hero from "../Hero/Hero";
 
 const Home = () => {
   return (
-    <div>
+    <div className="px-5 mx-auto md:p-0">
       <Hero></Hero>
       <Books></Books>
     </div>

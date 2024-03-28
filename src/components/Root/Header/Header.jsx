@@ -88,6 +88,14 @@ const Header = () => {
                   Contact
                 </NavLink>
               </li>
+              <li className="mt-4">
+                <a className="btn px-6 bg-green-500 text-white mr-3 w-full">
+                  Sign In
+                </a>
+                <a className="btn px-6 bg-sky-400 text-white w-full mt-3">
+                  Sign Up
+                </a>
+              </li>
             </ul>
           </div>
           <a className="btn btn-ghost text-2xl">Bookish</a>
@@ -156,7 +164,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end opacity-0 md:opacity-100">
           <a className="btn px-6 bg-green-500 text-white mr-3">Sign In</a>
           <a className="btn px-6 bg-sky-400 text-white">Sign Up</a>
         </div>

@@ -63,7 +63,7 @@ const LIstedBooks = () => {
           <span>Wishlist Books</span>
         </Link>
       </div>
-      <div>
+      <div className="  px-5 mx-auto md:px-0">
         <AssetContext.Provider value={filter}>
           <Outlet></Outlet>
         </AssetContext.Provider>

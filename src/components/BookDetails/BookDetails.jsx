@@ -31,12 +31,12 @@ const BookDetails = () => {
   };
 
   return (
-    <div className="grid grid-cols-2 my-5">
+    <div className="md:grid grid-cols-2 my-5 px-5 mx-auto md:px-0">
       <Toaster></Toaster>
-      <div className="bg-base-200 p-10 flex items-center justify-center rounded-xl">
+      <div className="bg-base-200 p-10  flex items-center justify-center rounded-xl">
         <img className="w-[400px]" src={image} alt="" />
       </div>
-      <div className="pl-10">
+      <div className="md:pl-10 mt-10 md:mt-0">
         <h2 className="text-4xl font-bold">{bookName}</h2>
         <p className="text-lg font-semibold text-stone-700 mt-5 mb-4">
           By : {author}
