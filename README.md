@@ -6,7 +6,7 @@ Bookish is a user-friendly online platform designed for book enthusiasts to disc
 
 ## URL
 
-[https://book-review-assign-8.netlify.app/contact]
+[https://book-review-assign-8.netlify.app]
 
 ## Features and Characteristics
 
